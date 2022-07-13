@@ -1,4 +1,4 @@
-﻿Console.WriteLine("В введите последовательность чисел , разделяя каждое число запятой ");
+﻿Console.WriteLine("Введите последовательность чисел , разделяя каждое число запятой ");
 string numbers =Console.ReadLine(); 
 Console.WriteLine(numbers);
 int count=0;
@@ -13,4 +13,4 @@ for(int i=0;i<numbers.Length;i++)
         count++;
     }   
 }
-Console.WriteLine("В веденом диапазоне  "+ count + " чисел больше 0");
+Console.WriteLine("В введеном диапазоне  "+ count + " чисел больше 0");
